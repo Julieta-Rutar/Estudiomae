@@ -1,0 +1,60 @@
+$color: #f4ebdd;
+
+.nav{
+    background-color: $color ;
+    &__div{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    &__li{
+        padding: 15px;
+    }
+    &__a{
+        color: #252424;
+        letter-spacing: 0.1rem;
+        font-size: large;
+    }
+
+    &__a:hover{
+       color: white; 
+       text-decoration: underline;
+    }
+
+}
+
+.contenedorAnimacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    overflow: hidden;
+    background-image: url(../img/portada.jpg);
+    
+    &__h1{
+        text-align: center;
+        letter-spacing: 0.1rem;
+        font-size: 3.5rem;
+    }
+
+    &__ol{
+        list-style: none;
+        padding: 15px;
+        letter-spacing: 0.1rem;
+        text-align: start;
+        height: 70px;
+        margin-bottom: 15px;
+        animation: cambiar 7s infinite;
+    }
+
+    &__li{
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+}
+
+.footer a{
+    font-size: 11px;
+}

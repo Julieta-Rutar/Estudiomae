@@ -1,0 +1,33 @@
+%titulos{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+%p{
+    align-self: center;
+    text-align: center;
+    background-color: #f4ebdd;
+    border-radius: 5px;
+    padding: 11px;
+}
+
+
+.valor{
+    justify-content: center;
+    align-self: center;
+    &_titulo{
+        @extend %titulos;
+    }
+
+    &_p{
+        @extend %p;
+    }
+
+    &_img{
+        width: 400px;
+        height: 450px;
+    }
+}

@@ -1,0 +1,26 @@
+.historia{
+    background-color: #252424;
+    border-radius: 5px;
+    justify-self: center;
+    margin-top: 30px;
+
+    &_h2{
+        font-size: 2rem;
+        padding: 20px;
+        letter-spacing: 0.2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    &_p{
+        color: white;
+        justify-self: center;
+        text-align: center;
+    }
+    &_hr{
+        width: 1120px;
+        margin-top: 10px;
+        border: #252424 3px solid; 
+    }
+}
