@@ -1,0 +1,44 @@
+.card{
+    margin: 15px;
+
+    &_p{
+        color: #242525;
+    }
+
+    &_info{
+        @extend .card;
+        color: #242525;
+    }
+}
+
+.servicios{
+    background-color: #242525;
+    color: #f4ebdd;
+
+    &_a{
+        color: #f4ebdd;
+        letter-spacing: 0.1rem;
+        font-size: large;
+        text-decoration: none;
+    }
+
+    &_logo{
+        @extend .servicios_a;
+        font-size: 50px;
+    }
+
+}
+
+
+.formsServicios{
+    &_h2{
+        margin-top: 50px;
+    }
+    &_btn{
+        background-color: #f4ebdd;
+        width: 100px;
+        border: solid #f4ebdd;
+        color: #242525;
+        margin: 10px;
+    }
+}

@@ -1,10 +1,14 @@
 $color: #f4ebdd;
 
+#colorNav{
+    background-color: #f4ebdd;
+}
 .nav{
-    background-color: $color ;
+    background-color: #f4ebdd ;
+
     &__div{
         display: flex;
-        justify-content: flex-end;
+        justify-self: flex-end;
         padding-right: 20px;
     }
 
@@ -15,6 +19,7 @@ $color: #f4ebdd;
         color: #252424;
         letter-spacing: 0.1rem;
         font-size: large;
+        text-decoration: none;
     }
 
     &__a:hover{
@@ -54,6 +59,7 @@ $color: #f4ebdd;
     }
 }
 
-.footer a{
-    font-size: 11px;
+
+.footer {
+    padding-top: 35px;
 }

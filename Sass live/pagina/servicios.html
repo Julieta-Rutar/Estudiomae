@@ -6,60 +6,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../main.css">
     <title> Estudio MÄE - servicios</title>
 </head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg nav ">
+<body class="servicios">
+  <div class="sticky-sm-top">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light servicios sticky-sm-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../img/logo.jpg" alt="" width="110" height="50" class="d-inline-block align-text-top">
-            </a>
+          <a class="servicios_logo" href="#"> MÄE </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav__div" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item nav__li">
-                <a class="nav-link active nav__a" aria-current="page" href="./index.html">Nosotras</a>
-              </li>
-              <li class="nav-item nav__li ">
-                <a class="nav-link active nav__a" href="../html/portfolio.html">Portfolio</a>
+                <a class="servicios_a" aria-current="page" href="./index.html">Nosotras</a>
               </li>
               <li class="nav-item nav__li">
-                <a class="nav-link active nav__a" href="../html/contacto.html">Contacto</a>
+                <a class="servicios_a active" href="./contacto.html">Contacto</a>
               </li>
               <li class="nav-item nav__li">
-                <a class="nav-link active nav__a" href="../html/servicios.html">Servicios</a>
+                <a class="servicios_a active" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item nav__li">
+                <a class="servicios_a active" href="./portfolio.html">Portfolio</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
   </header>
+  </div>
+  <main>
+
+    <!--Sección servicios-->
+
+    <section class="container">
+      <div class="row">
+        <div class="card col-4" style="width: 18rem;">
+          <img src="../img/comunity.jpg" class="card-img-top" alt="Ilustracion de servicio de comunity manager">
+          <div class="card-body">
+            <h5 class="card-title card_p">Comunity Manager</h5>
+            <p class="card-text card_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item card_info">Podes contratarlo cuando quieras</li>
+            <li class="list-group-item card_info">Presupuesto personalizado</li>
+          </ul>
+        </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img src="../img/creacion.jpg" class="card-img-top" alt="Ilustracion de servicio de comunity manager">
+          <div class="card-body">
+            <h5 class="card-title card_p">Creación de contenido</h5>
+            <p class="card-text card_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item card_info">Podes contratarlo cuando quieras</li>
+            <li class="list-group-item card_info">Presupuesto personalizado</li>
+          </ul>
+        </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img src="../img/diseño.jpg" class="card-img-top" alt="Ilustracion de servicio de comunity manager">
+          <div class="card-body">
+            <h5 class="card-title card_p">Diseño de logos e identidad de marca</h5>
+            <p class="card-text card_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item card_info">Podes contratarlo cuando quieras</li>
+            <li class="list-group-item card_info">Presupuesto personalizado</li>
+          </ul>
+        </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img src="../img/escribir.jpg" class="card-img-top" alt="Ilustracion de servicio de comunity manager">
+          <div class="card-body">
+            <h5 class="card-title card_p">writing de tu marca</h5>
+            <p class="card-text card_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item card_info">Podes contratarlo cuando quieras</li>
+            <li class="list-group-item card_info">Presupuesto personalizado</li>
+          </ul>
+        </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img src="../img/comunity.jpg" class="card-img-top" alt="Ilustracion de servicio de comunity manager">
+          <div class="card-body">
+            <h5 class="card-title card_p">Comunity Manager</h5>
+            <p class="card-text card_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item card_info">Podes contratarlo cuando quieras</li>
+            <li class="list-group-item card_info">Presupuesto personalizado</li>
+          </ul>
+        </div>        
+      </div>
+    </section>
+
+    <!--Sección turno-->
+
+    <section class="container">
+      <div class="row">
+        <h2 class="col-md-12 formsServicios_h2">¿Agendamos un turno para hablar de los servicios?</h2>
+      </div>
+      <form class="row">
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">¿Cuándo podés?</label>
+          <input type="date" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Algo que quieras adelantarnos</label>
+          <input type="mensaje" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary formsServicios_btn ">Enviar</button>
+        <button type="reset" class="btn btn-primary formsServicios_btn">Cancelar</button>
+      </form>
+    </section>
+
+    <!--Sección de packs-->
+  </main>
   <footer class="footer">
-    <nav class="navbar navbar-expand-lg nav ">
+    <nav class="navbar navbar-expand-lg servicios ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../img/logo.jpg" alt="" width="110" height="50" class="d-inline-block align-text-top">
-            </a>
+          <a class="servicios_logo" href="#"> MÄE </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav__div" id="navbarNav">
+          <div class="collapse navbar-collapse nav__div justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item nav__li">
-                <a class="nav-link active nav__a" aria-current="page" href="#">Instagram</a>
+                <a class="nav-link active servicios_a" aria-current="page" href="#">Instagram</a>
               </li>
               <li class="nav-item nav__li ">
-                <a class="nav-link active nav__a" href="#">WhatsApp: +54 343 520 1236</a>
+                <a class="nav-link active servicios_a" href="#">WhatsApp: +54 343 520 1236</a>
               </li>
               <li class="nav-item nav__li">
-                <a class="nav-link active nav__a" href="#">Contacto</a>
+                <a class="nav-link active servicios_a" href="#">Contacto</a>
               </li>
               <li class="nav-item nav__li">
-                <a class="nav-link active nav__a">Más información</a>
+                <a class="nav-link active servicios_a">Más información</a>
               </li>
             </ul>
           </div>

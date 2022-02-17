@@ -10,6 +10,10 @@
   overflow-x: hidden;
 }
 
+#colorNav {
+  background-color: #f4ebdd;
+}
+
 .nav {
   background-color: #f4ebdd;
 }
@@ -18,9 +22,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-self: flex-end;
   padding-right: 20px;
 }
 
@@ -32,6 +34,7 @@
   color: #252424;
   letter-spacing: 0.1rem;
   font-size: large;
+  text-decoration: none;
 }
 
 .nav__a:hover {
@@ -79,8 +82,8 @@
   font-weight: bold;
 }
 
-.footer a {
-  font-size: 11px;
+.footer {
+  padding-top: 35px;
 }
 
 @-webkit-keyframes cambiar {
@@ -140,12 +143,6 @@
   }
   100% {
     margin-top: -35px;
-  }
-}
-
-@media screen and (min-width: 320px) {
-  .bodyColor {
-    background-color: aqua;
   }
 }
 
@@ -223,6 +220,15 @@ img {
   text-align: center;
 }
 
+.perfilNew {
+  background-color: #252424;
+  padding-top: 10px;
+}
+
+.perfilNew_p {
+  color: white;
+}
+
 .perfiles, .valor_titulo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,5 +286,56 @@ img {
 .trans {
   -webkit-animation: desaparecer;
           animation: desaparecer;
+}
+
+.boton {
+  background-color: #242525;
+  border: solid #242525;
+  margin: 15px;
+  margin-bottom: 150px;
+}
+
+.form {
+  background-color: beige;
+}
+
+.card, .card_info {
+  margin: 15px;
+}
+
+.card_p {
+  color: #242525;
+}
+
+.card_info {
+  color: #242525;
+}
+
+.servicios {
+  background-color: #242525;
+  color: #f4ebdd;
+}
+
+.servicios_a, .servicios_logo {
+  color: #f4ebdd;
+  letter-spacing: 0.1rem;
+  font-size: large;
+  text-decoration: none;
+}
+
+.servicios_logo {
+  font-size: 50px;
+}
+
+.formsServicios_h2 {
+  margin-top: 50px;
+}
+
+.formsServicios_btn {
+  background-color: #f4ebdd;
+  width: 100px;
+  border: solid #f4ebdd;
+  color: #242525;
+  margin: 10px;
 }
 /*# sourceMappingURL=main.css.map */
