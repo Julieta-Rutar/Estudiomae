@@ -1,0 +1,3 @@
+git remote add origin https://github.com/Julietagit-Rutar/mae-estudio.git
+git branch -M master
+git push -u origin master
